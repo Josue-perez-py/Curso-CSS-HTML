@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    background-color: #000000;
+    color: #DCD3AB;
+    box-sizing: border-box;
+
+}
+
+.header{
+
+    padding: 2% 0% 0% 5%;
+
+}
+
+.header__menu{
+
+    display: flex;
+    gap: 80px;
+
+}
+
+.header__menu__link{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #E1D8B6;
+}
+
+.presentacion{
+
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentacion__contenido{
+
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentacion__contenido__titulo{
+
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+
+.presentacion__contenido__texto{
+
+    font-size: 24px;
+}
+
+img{
+
+    width: 40%;
+    border-radius: 16px;
+    box-shadow: 0 0 20px #DB8629;
+    object-fit: cover;
+    margin-left: 0%; 
+          
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+
+    background-color: #EB931C;
+    padding: 24px;
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+
+}
